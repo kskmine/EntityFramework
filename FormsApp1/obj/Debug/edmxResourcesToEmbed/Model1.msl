@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="entityDenemeModelStoreContainer" CdmEntityContainer="entityDenemeEntities">
+    <EntitySetMapping Name="tbl_Kullanıcı">
+      <EntityTypeMapping TypeName="entityDenemeModel.tbl_Kullanıcı">
+        <MappingFragment StoreEntitySet="tbl_Kullanıcı">
+          <ScalarProperty Name="kullanıcıID" ColumnName="kullanıcıID" />
+          <ScalarProperty Name="kullanıcıAd" ColumnName="kullanıcıAd" />
+          <ScalarProperty Name="kullanıcıSoyad" ColumnName="kullanıcıSoyad" />
+          <ScalarProperty Name="kullanıcıSifre" ColumnName="kullanıcıSifre" />
+          <ScalarProperty Name="kullanıcıEmail" ColumnName="kullanıcıEmail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
